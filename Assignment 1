@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+	
+	int n,ele,i,s;
+	printf ("number of elements:");
+	scanf("%d",&n);  
+	i=1;
+	while(i<=n)
+	{
+		scanf("%d",&ele);
+		if(i==1)
+		s=ele;
+		if(s>ele)
+			s=ele;
+		i++;
+	}
+	printf("smallest = %d",s);
+	
+}
